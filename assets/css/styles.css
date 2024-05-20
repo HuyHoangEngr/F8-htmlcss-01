@@ -33,7 +33,7 @@ a {
   padding: 15px 20px;
   background: var(--primary-color);
   filter: contrast(1);
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 1.3rem;
   font-weight: 500;
   text-align: center;
@@ -86,6 +86,7 @@ a {
 
 .navbar .action-btn {
   font-size: 1.4rem;
+  border-radius: 8px;
   margin-left: 18px;
   padding: 13px 22px;
 }
@@ -159,4 +160,78 @@ a {
   margin-top: 96px;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Guides */
+.guides .sub-title {
+  position: relative;
+  margin-top: 93px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+  color: #000339;
+}
+
+.guides .sub-title::before {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  display: inline-block;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+}
+
+.guides .desc {
+  margin-top: 20px;
+  width: 459px;
+  /* Defines the maximum width 
+  in percent of the containing block */
+  max-width: 100%;
+  /* the p la the block thi set thuoc tinh margin 
+  cho left right = auto de canh giua */
+  margin: 20px auto 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+  text-align: center;
+}
+
+.list-guide {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.guide-item {
+  margin: 0 70px;
+  text-align: center;
+}
+
+.guide-item .title {
+  margin-top: 26px;
+}
+
+.guide-item .link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: #0689ff;
+}
+
+.guide-item .arrow {
+  margin-left: 8px;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
 }
