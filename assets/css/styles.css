@@ -349,3 +349,65 @@ a {
   letter-spacing: 0.01em;
   color: #444444;
 }
+
+/* Stats */
+.stats {
+  margin-top: 75px;
+}
+
+.stats .content {
+  width: 1017px;
+  padding: 50px 0 50px 0;
+}
+
+.stats .row {
+  display: flex;
+}
+
+.stats .row .img-block,
+.stats .row .info {
+  width: 50%;
+}
+
+.stats .info {
+  padding: 65px 0 0 165px;
+}
+
+.stats .img-block img {
+  width: 400px;
+  height: 460px;
+  /* set 2 thuoc tinh duoi day de hinh anh dich sang phai */
+  display: block;
+  border-radius: 12px;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+.stats .sub-title {
+  position: relative;
+  width: 269px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.29;
+  color: #000339;
+}
+
+.stats .sub-title::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+}
+
+.stats .desc {
+  margin-top: 20px;
+  width: 309px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+  color: #5a6473;
+}
