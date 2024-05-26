@@ -450,3 +450,34 @@ a {
   line-height: 1.88;
   color: #5a6473;
 }
+
+.stats .avatar-block {
+  display: flex;
+  margin-top: 26px;
+  /* cac the con ben trong se duoc can chinh khoang cach row column */
+  gap: 16px 14px;
+  /* Xuong dong cho cac khoi ben trong khoi nay */
+  flex-wrap: wrap;
+}
+
+.stats .avatar-group {
+  display: flex;
+}
+.stats .avatar {
+  width: 17px;
+  height: 17px;
+  object-fit: cover;
+  margin-left: -3px;
+  border-radius: 50%;
+}
+
+.stats .avatar-text {
+  background: #1f3bb1;
+  font-size: 0.5rem;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  text-align: center;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+}
