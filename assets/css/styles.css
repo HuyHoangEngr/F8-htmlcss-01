@@ -481,3 +481,23 @@ a {
   text-align: center;
   color: #fff;
 }
+
+.stats .row-qty {
+  padding: 0px 16px;
+  margin-top: 110px;
+  justify-content: space-between;
+}
+
+.stats .qty {
+  font-size: 6.4rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.stats .qty-desc {
+  margin-top: 22px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #7b8087;
+}
